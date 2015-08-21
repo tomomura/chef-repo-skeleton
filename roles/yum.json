@@ -1,0 +1,8 @@
+{
+  "name": "yum",
+  "run_list": [
+    "recipe[yum-epel]",
+    "recipe[yum-repoforge]",
+    "recipe[yum-setup]"
+  ]
+}
