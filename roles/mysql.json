@@ -1,0 +1,6 @@
+{
+  "name": "mysql",
+  "run_list": [
+    "recipe[mysql-setup]"
+  ]
+}
