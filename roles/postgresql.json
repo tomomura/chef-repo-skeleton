@@ -1,0 +1,8 @@
+{
+  "name": "postgresql",
+  "run_list": [
+    "recipe[postgresql::client]",
+    "recipe[postgresql::server]",
+    "recipe[postgresql-setup]"
+  ]
+}
