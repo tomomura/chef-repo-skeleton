@@ -10,3 +10,4 @@ cookbooks/
 nodes/
 vendor/bundle
 .bundle
+clients/
