@@ -11,3 +11,4 @@ nodes/
 vendor/bundle
 .bundle
 clients/
+.vagrant/
