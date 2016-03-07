@@ -1,33 +1,15 @@
 DEPENDENCIES
   apache2
   database (~> 4.0.9)
-  dotfiles
-    git: git://github.com/tomomura/chef-dotfiles.git
-    revision: ccbe3c967dcd4aae8917f3e639174848a6e9398e
   git
   mysql (~> 6.1.2)
-  mysql-setup
-    git: git://github.com/tomomura/chef-mysql-setup.git
-    revision: 6c21237c3317698fbc34ea5842fc7d47e3615eac
   mysql2_chef_gem
-  porg
-    git: git://github.com/tomomura/chef-porg.git
-    revision: 5dca549b4e1b5e1ef229ee0a9b4539b86211d5eb
   postgresql (~> 4.0.2)
-  postgresql-setup
-    git: git://github.com/tomomura/chef-postgresql-setup.git
-    revision: 98a80daead0d574db0b5164b6913dd219ee772d3
   ruby_rbenv
-  tig
-    git: git://github.com/tomomura/chef-tig.git
-    revision: 749bfdc22769000455f840a3d760825cb361bfc5
   tmux
   vim
   yum-epel
   yum-repoforge
-  yum-setup
-    git: git://github.com/tomomura/chef-yum-setup.git
-    revision: f29fa341d168a1a1680f95e169c39732ae6d3a3b
   zsh
 
 GRAPH
@@ -43,12 +25,13 @@ GRAPH
   database (4.0.9)
     postgresql (>= 1.0.0)
   dmg (2.3.0)
-  dotfiles (0.1.0)
   git (4.3.7)
     build-essential (>= 0.0.0)
     dmg (>= 0.0.0)
     windows (>= 0.0.0)
     yum-epel (>= 0.0.0)
+  java (1.39.0)
+    apt (>= 0.0.0)
   mariadb (0.3.1)
     apt (>= 0.0.0)
     yum (>= 0.0.0)
@@ -58,24 +41,16 @@ GRAPH
   mysql (6.1.2)
     smf (>= 0.0.0)
     yum-mysql-community (>= 0.0.0)
-  mysql-setup (0.1.0)
-    database (>= 0.0.0)
-    mysql (~> 6.0)
-    mysql2_chef_gem (>= 0.0.0)
   mysql2_chef_gem (1.0.2)
     build-essential (>= 0.0.0)
     mariadb (>= 0.0.0)
     mysql (~> 6.0)
   openssl (4.4.0)
     chef-sugar (>= 3.1.1)
-  porg (0.1.0)
   postgresql (4.0.2)
     apt (>= 1.9.0)
     build-essential (>= 0.0.0)
     openssl (~> 4.0)
-  postgresql-setup (0.1.0)
-    database (>= 0.0.0)
-    postgresql (>= 0.0.0)
   rbac (1.0.3)
   ruby_build (0.8.0)
   ruby_rbenv (1.0.1)
@@ -83,8 +58,6 @@ GRAPH
     ruby_build (>= 0.0.0)
   smf (2.2.8)
     rbac (>= 1.0.1)
-  tig (0.1.0)
-    yum-epel (>= 0.0.0)
   tmux (1.5.0)
   vim (2.0.1)
   windows (1.39.2)
@@ -97,6 +70,5 @@ GRAPH
   yum-repoforge (0.5.7)
     yum (~> 3.2)
     yum-epel (>= 0.0.0)
-  yum-setup (0.1.0)
   zsh (2.0.0)
     multipackage (~> 3.0)

@@ -8,6 +8,7 @@
     "recipe[tig]",
     "recipe[vim]",
     "recipe[tmux]",
-    "recipe[porg]"
+    "recipe[porg]",
+    "recipe[dotfiles]"
   ]
 }

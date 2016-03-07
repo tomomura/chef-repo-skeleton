@@ -13,6 +13,9 @@
             "2.3.0": [
               {
                 "name": "bundler"
+              },
+              {
+                "name": "tmuxinator"
               }
             ]
           }

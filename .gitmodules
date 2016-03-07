@@ -1,0 +1,18 @@
+[submodule "site-cookbooks/porg"]
+	path = site-cookbooks/porg
+	url = https://github.com/tomomura/chef-porg.git
+[submodule "site-cookbooks/yum-setup"]
+	path = site-cookbooks/yum-setup
+	url = https://github.com/tomomura/chef-yum-setup.git
+[submodule "site-cookbooks/tig"]
+	path = site-cookbooks/tig
+	url = https://github.com/tomomura/chef-tig.git
+[submodule "site-cookbooks/mysql-setup"]
+	path = site-cookbooks/mysql-setup
+	url = https://github.com/tomomura/chef-mysql-setup.git
+[submodule "site-cookbooks/postgresql-setup"]
+	path = site-cookbooks/postgresql-setup
+	url = https://github.com/tomomura/chef-postgresql-setup.git
+[submodule "site-cookbooks/dotfiles"]
+	path = site-cookbooks/dotfiles
+	url = https://github.com/tomomura/chef-dotfiles.git
