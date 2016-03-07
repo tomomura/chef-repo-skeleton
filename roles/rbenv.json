@@ -6,11 +6,11 @@
         {
           "user": "vagrant",
           "rubies": [
-            "2.2.2"
+            "2.3.0"
           ],
-          "global": "2.2.2",
+          "global": "2.3.0",
           "gems": {
-            "2.2.2": [
+            "2.3.0": [
               {
                 "name": "bundler"
               }
@@ -22,6 +22,6 @@
   },
   "run_list": [
     "recipe[ruby_build]",
-    "recipe[rbenv::user]"
+    "recipe[ruby_rbenv::user]"
   ]
 }

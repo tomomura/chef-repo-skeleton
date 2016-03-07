@@ -2,16 +2,16 @@ source "https://supermarket.chef.io"
 
 cookbook "apache2"
 cookbook 'zsh'
-cookbook 'rbenv', github: "fnichol/chef-rbenv"
+cookbook 'ruby_rbenv'
 cookbook 'vim'
 cookbook 'tmux'
 cookbook 'git'
 cookbook 'yum-epel'
 cookbook 'yum-repoforge'
-cookbook 'postgresql', '~> 3.4.20'
-cookbook 'mysql',  '~> 6.1.0'
+cookbook 'postgresql', '~> 4.0.2'
+cookbook 'mysql',  '~> 6.1.2'
 cookbook 'mysql2_chef_gem'
-cookbook 'database',  '~> 4.0.8'
+cookbook 'database',  '~> 4.0.9'
 
 cookbook 'dotfiles', github: "tomomura/chef-dotfiles"
 cookbook 'porg', github: "tomomura/chef-porg"
